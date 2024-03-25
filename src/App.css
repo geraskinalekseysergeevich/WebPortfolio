@@ -1,0 +1,915 @@
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    src: url(./fonts/Gilroy-Regular.woff2) format('woff2'),
+        url(./fonts/Gilroy-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    src: url(./fonts/Gilroy-Medium.woff2) format('woff2'),
+        url(./fonts/Gilroy-Medium.woff) format('woff');
+}
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    src: url(./fonts/Gilroy-Semibold.woff2) format('woff2'),
+        url(./fonts/Gilroy-Semibold.woff) format('woff');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    width: 100%;
+    max-width: 1920px;
+    background: #272727;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+    body { max-width: 1280px; }
+    .cover__container {
+        background: url(./sources/covers/intro_cover1280.png) no-repeat;
+        max-width: 1180px;
+    }
+    .language-btn__container {
+        top: 30px;
+        right: 58px;
+    }
+    .cover-columns {
+        width: 1180px;
+        height: 607px;
+    }
+    .cover-left-column {
+        top: 165px;
+        left: 83px;
+    }
+    .cover-right-column {
+        scale: calc(473/692);
+        right: -64px;
+        bottom: -119px;
+    }
+    .cover-text-container {
+        font-size: 50px;
+        max-width: 615px;
+    }
+    .phone-card {
+        .flipper {
+            width: 330px;
+            height: 60px;
+        }
+        .back > div {
+            font-size: 26px;
+            top: 15px;
+            left: 44px
+        }
+    }
+    .cover-links-bar {
+        max-width: 580px;
+    }
+    .tags-body__container {
+        padding: 0px 200px 0 195px;
+    }
+    .tags-text {
+        font-size: 24px;
+    }
+    .tag-bar {
+        gap: 20px;
+        .tag-elem {
+            font-size: 24px;
+        }
+    }
+    .tag-elem-react, 
+    .tag-elem-css,
+    .tag-elem-apps {
+        height: 45px;
+    }
+    .tag-elem-react:hover, 
+    .tag-elem-css:hover,
+    .tag-elem-apps:hover {
+        height: 45px;
+    }
+    .tag-elem-websites, 
+    .tag-elem-animation,
+    .tag-elem-html {
+        height: 40px;
+    }
+    .tag-elem-websites:hover, 
+    .tag-elem-animation:hover,
+    .tag-elem-html:hover {
+        height: 40px;
+    }
+    .tag-elem-websites {
+        max-width: 150px;
+    }
+    .tag-elem-css {
+        max-width: 100px;
+    }
+    .tag-elem-itmo {
+        max-width: 391px;
+    }
+    .tag-elem-js {
+        max-width: 170px;
+    }
+    .tag-elem-animation {
+        max-width: 150px;
+    }
+    .tag-elem-react {
+        max-width: 125px;
+    }
+    .tag-elem-html {
+        max-width: 369px;
+    }
+    .tag-elem-apps {
+        max-width: 395px;
+    }
+    .tag-elem-stores {
+        max-width: 170px;
+    }
+    .cards-body__container {
+        padding: 0 200px 0 195px;
+    }
+    .cards-body__container::before {
+        width: 1150px;
+    }
+    .about-card {
+        width: 312px;
+        height: 224px;
+        .front > div {
+            font-size: 48px;
+            bottom: 15px;
+            left: 24px;
+        }
+        .front > img {
+            width: 29px;
+            height: 29px;
+            right: 20px;
+            top: 20px;
+        }
+        .back > div {
+            left: 17px;
+            top: 14px;
+            right: 19px;
+            font-size: 16px;
+        }
+    }
+    .hours-card {
+        margin-top: 26px;
+        .flipper {
+            width: 387px;
+            height: 84px;
+        }
+        .front > div {
+            font-size: 48px;
+            left: 15px;
+            top: 15px;
+        }
+        .front > img {
+            width: 29px;
+            height: 29px;
+            right: 18px;
+            bottom: 18px;
+        }
+        .back > div {
+            top: 8px;
+            left: 20px;
+            font-size: 50px;
+        }
+    }
+    .software-card {
+        .flipper {
+            width: 151px;
+            height: 201px;
+        }
+        .front > div {
+            font-size: 32px;
+            top: 13px;
+            left: 11px;
+        }
+        .front > img {
+            width: 29px;
+            height: 29px;
+            right: 20px;
+            bottom: 20px;
+        }
+        .back > div {
+            font-size: 40px;
+            right: 16px;
+            bottom: 16px;
+        }
+    }
+    .github-card {
+        background: url('../src/sources/imgs/github-bg1280.svg');
+        width: 286px;
+        height: 201px;
+    }
+    .github-link {
+        font-size: 48px;
+        left: 22px;
+        bottom: 17px;
+    }
+    .github-card-img {
+        width: 29px;
+        height: 29px;
+        right: 20px;
+        top: 20px;
+    }
+    .cards-second-row {
+        margin-top: -85px;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .cover__container {
+        max-width: 1820px;
+        background: url(./sources/covers/intro_cover.png) no-repeat;
+    }
+    .language-btn__container {
+        top: 30px;
+        right: 58px;
+    }
+    .cover-columns {
+        width: 1819px;
+        height: 841px;
+    }
+    .cover-left-column {
+        top: 180px;
+        left: 74px;
+    }
+    .cover-right-column {
+        right: 113px;
+        bottom: -5px;
+    }
+    .cover-text-container {
+        font-size: 90px;
+        max-width: 1000px;
+    }
+    .phone-card {
+        .flipper {
+            width: 425px;
+            height: 60px;
+        }
+        .back > div {
+            font-size: 30px;
+            top: 13px;
+            left: 75px
+        }
+    }
+    .cover-links-bar {
+        max-width: 705px;
+    }
+    .tags-body__container {
+        padding: 0px 220px 0 215px;
+    }
+    .tags-text {
+        font-size: 35px;
+    }
+    .tag-bar {
+        gap: 30px;
+        .tag-elem {
+            font-size: 30px;
+        }
+    }
+    .tag-elem-react, 
+    .tag-elem-css,
+    .tag-elem-apps {
+        height: 55px;
+    }
+    .tag-elem-react:hover, 
+    .tag-elem-css:hover,
+    .tag-elem-apps:hover {
+        height: 55px;
+    }
+    .tag-elem-websites, 
+    .tag-elem-animation,
+    .tag-elem-html {
+        height: 50px;
+    }
+    .tag-elem-websites:hover, 
+    .tag-elem-animation:hover,
+    .tag-elem-html:hover {
+        height: 50px;
+    }
+    .tag-elem-websites {
+        max-width: 243px;
+    }
+    .tag-elem-css {
+        max-width: 139px;
+    }
+    .tag-elem-itmo {
+        max-width: 391px;
+    }
+    .tag-elem-js {
+        max-width: 284px;
+    }
+    .tag-elem-animation {
+        max-width: 299px;
+    }
+    .tag-elem-react {
+        max-width: 201px;
+    }
+    .tag-elem-html {
+        max-width: 369px;
+    }
+    .tag-elem-apps {
+        max-width: 395px;
+    }
+    .tag-elem-stores {
+        max-width: 255px;
+    }
+    .cards-body__container {
+        padding: 0 217px 0 221px;
+    }
+    .cards-body__container::before {
+        width: 1526px;
+    }
+    .about-card {
+        width: 491px;
+        height: 350px;
+        .front > div {
+            font-size: 70px;
+            bottom: 40px;
+            left: 38px;
+        }
+        .front > img {
+            right: 30px;
+            top: 30px;
+        }
+        .back > div {
+            left: 32px;
+            top: 25px;
+            right: 30px;
+            font-size: 24px;
+        }
+    }
+    .hours-card {
+        margin-top: 41px;
+        .flipper {
+            width: 607px;
+            height: 132px;
+        }
+        .front > div {
+            font-size: 55px;
+            left: 23px;
+            top: 26px;
+        }
+        .front > img {
+            right: 28px;
+            bottom: 28px;
+        }
+        .back > div {
+            top: 20px;
+            left: 33px;
+            font-size: 70px;
+        }
+    }
+    .software-card {
+        .flipper {
+            width: 237px;
+            height: 314px;
+        }
+        .front > div {
+            font-size: 40px;
+            top: 20px;
+            left: 25px;
+        }
+        .front > img {
+            right: 29px;
+            bottom: 29px;
+        }
+        .back > div {
+            font-size: 60px;
+            right: 30px;
+            bottom: 30px;
+        }
+    }
+    .github-card {
+        background: url('../src/sources/imgs/github-bg.svg');
+        width: 450px;
+        height: 314px;
+    }
+    .github-link {
+        font-size: 60px;
+        left: 35px;
+        bottom: 30px;
+    }
+    .github-card-img {
+        right: 30px;
+        top: 30px;
+    }
+    .cards-second-row {
+        margin-top: -142px;
+    }
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+.App {
+    width: 100%;
+}
+.body__container {
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------------------------------------------------------animations----------------- */
+
+@keyframes arrow-bot {
+    0% {
+        transform: translate(0, 0);
+    } 50% {
+        transform: translate(35%, 35%);
+    }
+}
+
+@keyframes arrow-top {
+    0% {
+        transform: translate(0, 0);
+    } 50% {
+        transform: translate(35%, -35%);
+    }
+}
+
+@keyframes sliderArrow {
+    0% {
+        scale: 1;
+    } 50% {
+        scale: 1.3;
+    }
+}
+/*--header------------------------------------------------------------------------------*/
+
+.cover__container {
+    width: 100%;
+    position: relative;
+}
+
+.el-header {
+    min-width: 50vh;
+    max-width: 1819px;
+}
+
+.header-intro__container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-intro {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 13px;
+    top: 5px;
+
+    .header-title {
+        color: #FFF;
+        font-family: Gilroy;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 110%;
+    }
+        
+    .header-body {
+        color: rgba(255, 255, 255, 0.33);
+        font-family: Gilroy;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 110%;
+        margin-top: 3px;
+        margin-left: 25px;
+    }
+}
+
+.language-btn__container { 
+    position: absolute;
+    z-index: 2;
+}
+
+/*--cover----------------------------------------------------------------------*/
+
+.cover-columns {
+    position: relative;
+}
+
+.cover-left-column {
+    position: absolute;
+
+    .cover-text-container {
+        color: #272727;
+        font-family: Gilroy;
+        font-weight: 600;
+        margin-right: -20px;
+    }
+
+    .cover-links-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 54px;
+
+        .link {
+            display: inline-block;
+            width: 59px;
+            height: 59px;
+            background-color: #272727;
+            border-radius: 50%;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s;
+            &:hover {
+                background-color: #494949;
+            }
+        }
+
+        .insta-link > img,
+        .tele-link > img,
+        .vk-link > img {
+            position: absolute;
+        }
+        .insta-link > img {
+            left: 15.5px;
+            top: 16px;
+        }
+        .tele-link > img {
+            top: 15.5px;
+            left: 11px;
+        }
+        .vk-link > img {
+            top: 21px;
+            left: 11px;
+        }
+    } 
+}
+
+.phone-card {
+    .flipper {
+        cursor: pointer;
+    }
+    
+    .flipper-side {
+        width: 100%;
+        height: 100%;
+        border-radius: 39.5px;
+    }
+
+    .flipper-side > div {
+        font-family: Gilroy;
+        font-weight: 600;
+        line-height: 110%;
+        text-align: center;
+    }
+
+    .flipper-side > img {
+        display: none;
+    }
+    .front {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFF;
+    }
+
+    .front > div{
+        color: #272727;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .back {
+        position: relative;
+        background: #272727;
+    }
+
+    .back > div {
+        color: #FFF;
+        position: absolute;
+    }
+}
+
+.cover-right-column {
+    position: absolute;
+}
+
+/*--tagsbar-----------------------------------------------------------*/
+
+.tags-container {
+    max-width: 1820px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.tags-body__container {
+    display: flex;
+    flex-direction: column;
+}
+.tags-text {
+    padding-top: 180px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-weight: 500;
+    line-height: 126.787%;
+    max-width: 1050px;
+}
+.tags-body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 105px;
+    .tag-bar {
+        display: flex;
+        .tag-elem {
+            font-family: Gilroy;
+            font-weight: 600;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-basis: auto;
+            width: 100%;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+    }
+}
+
+.tag-elem-react, 
+.tag-elem-css,
+.tag-elem-apps {
+    background: #86C8D4;
+    color: #FFF;
+}
+
+.tag-elem-websites, 
+.tag-elem-animation,
+.tag-elem-html {
+    border: 3px solid #FFF;
+    color: #FFF;
+}
+
+.tag-elem-itmo,
+.tag-elem-js,
+.tag-elem-stores {
+    background: #FFF;
+    color: #272727;
+}
+
+.tag-bar-1 {
+    margin-bottom: 29px;
+}
+
+.tag-elem-react:hover, 
+.tag-elem-css:hover,
+.tag-elem-apps:hover {
+    background: #FFF;
+    color: #272727;
+}
+
+.tag-elem-websites:hover, 
+.tag-elem-animation:hover,
+.tag-elem-html:hover {
+    border: 3px solid #86C8D4;
+    color: #86C8D4;
+}
+
+.tag-elem-itmo:hover,
+.tag-elem-js:hover,
+.tag-elem-stores:hover {
+    background: #86C8D4;
+    color: #FFF;
+}
+
+/*--slider-----------------------------------------------------------*/
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.slider-btn {
+    cursor: pointer;
+    position: absolute;
+    padding: 3px;
+    z-index: 2;
+    transition: all 0.2s ease-in-out;
+}
+
+.left-btn {
+    left: 8px;
+}
+
+.right-btn {
+    right: 8px;
+}
+
+.left_btn:hover,
+.right_btn:hover {
+    animation: sliderArrow 1s infinite;
+}
+.cards__container {
+    max-width: 1820px;
+    margin-top: 320px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.cards-body__container::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.45);
+    top: -160px;
+}
+
+.cards-body__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+/*--cards------------------------------------------------------------------------*/
+/*--------------------------about-----------------------------*/
+
+.cards-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about-card {
+    .flipper {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .flipper-side {
+        width: 100%;
+        height: 100%;
+        background: #FFF;
+        border-radius: 20px;
+    }
+
+    .front {
+        position: relative;
+    }
+
+    .front > div {
+        color: #272727;
+        font-family: Gilroy;
+        font-weight: 600;
+        line-height: 110%;
+        text-align: left;
+        position: absolute;
+    }
+
+    .front > img {
+        position: absolute;
+    }
+
+    .flipper:hover .front > img {
+        animation: arrow-top 1s infinite;
+    }
+
+    .back {
+        background: #D4D4D4;
+    }
+
+    .back > div {
+        color: #000;
+        font-family: Gilroy;
+        font-weight: 400;
+        line-height: 120%;
+        text-align: left;
+        position: absolute;
+    }
+}
+
+/*--------------------------time-----------------------------*/
+
+.cards-second-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hours-card {
+    .flipper {
+        cursor: pointer;
+    }
+    .flipper-side {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    .front {
+        background: #86C8D4;
+        position: relative;
+    }
+    .front > div {
+        color: #272727;
+        font-family: Gilroy;
+        font-weight: 600;
+        line-height: 110%;
+        position: absolute;
+    }
+    .front > img {
+        position: absolute;
+    }
+    .flipper:hover .front > img {
+        animation: arrow-bot 1s infinite;
+    }
+    .back {
+        background: #FFF;
+        position: relative;
+    }
+
+    .back > div {
+        color: #141414;
+        font-family: Gilroy;
+        font-weight: 600;
+        line-height: 110%;
+        position: absolute;
+    }
+}
+
+/*--------------------------github-----------------------------*/
+
+.github-card {
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.github-link {
+    color: #141414;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 110%;
+    text-decoration: none;
+    position: absolute;
+}
+
+.github-card-img {
+    position: absolute;
+}
+
+.github-card:hover .github-card-img {
+    animation: arrow-top 1s infinite;
+}
+
+/*--------------------------software-----------------------------*/
+
+.software-card {
+    .flipper {
+        cursor: pointer;
+    }
+    .flipper-side {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    .front {
+        background: #D4D4D4;
+        position: relative;
+    }
+    .front > div {
+        color: #272727;
+        font-family: Gilroy;
+        font-weight: 600;
+        line-height: 110%;
+        position: absolute;
+    }
+    .front > img {
+        position: absolute;
+    }
+    .flipper:hover .front > img {
+        animation: arrow-bot 1s infinite;
+    }
+    .back {
+        background: #86C8D4;
+    }
+    .back > div {
+        color: #272727;
+        font-family: Gilroy;
+        font-weight: 600;
+        line-height: 110%;
+        text-align: right;
+        position: absolute;
+    }
+}

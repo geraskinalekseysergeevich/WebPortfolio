@@ -1,0 +1,14 @@
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+    .slider_body {
+        max-width: 539px;
+        max-height: 339px;
+    }
+}
+.slider_body {
+    transition: opacity ease-in-out;
+}
+.slider_body > img {
+    border-radius: 34px;
+    max-width: 100%;
+    height: auto;
+}
