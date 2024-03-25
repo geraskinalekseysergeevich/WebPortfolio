@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[66],{66:(e,o,t)=>{t.r(o),t.d(o,{default:()=>a});t(791);const r="Footer_footer__container__QtfZ9",c="Footer_footerbody__container__t6lom";var s=t(184);const a=e=>{let{footerInitialsText:o}=e;const t="leha.geraskin.80@gmail.com";return(0,s.jsx)("footer",{className:r,children:(0,s.jsxs)("div",{className:c,children:[(0,s.jsx)("div",{children:o}),(0,s.jsx)("div",{children:"2023"}),(0,s.jsx)("a",{href:"mailto:".concat(t),children:t})]})})}}}]);
+//# sourceMappingURL=66.7f0be66e.chunk.js.map

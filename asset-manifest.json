@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/WebPortfolio/static/css/main.ac4a6407.css",
+    "main.js": "/WebPortfolio/static/js/main.2aeaa02d.js",
+    "static/css/66.8dcda818.chunk.css": "/WebPortfolio/static/css/66.8dcda818.chunk.css",
+    "static/js/66.7f0be66e.chunk.js": "/WebPortfolio/static/js/66.7f0be66e.chunk.js",
+    "static/media/image3.jpg": "/WebPortfolio/static/media/image3.af5582ecc6d2476f441a.jpg",
+    "static/media/image1.jpg": "/WebPortfolio/static/media/image1.815f1bb9d6a1cd95be17.jpg",
+    "static/media/image0.jpg": "/WebPortfolio/static/media/image0.3300b3311e98eb206b3a.jpg",
+    "static/media/man.png": "/WebPortfolio/static/media/man.5c53da79ef4a7eda4176.png",
+    "static/media/image2.jpg": "/WebPortfolio/static/media/image2.9ef7bc1355f639bcda9e.jpg",
+    "static/media/Gilroy-Medium.woff": "/WebPortfolio/static/media/Gilroy-Medium.5329bc502cdc219ad294.woff",
+    "static/media/Gilroy-Semibold.woff": "/WebPortfolio/static/media/Gilroy-Semibold.5b042906a8b58ec4633e.woff",
+    "static/media/Gilroy-Regular.woff": "/WebPortfolio/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
+    "static/media/Gilroy-Medium.woff2": "/WebPortfolio/static/media/Gilroy-Medium.acd4e613de34a826c191.woff2",
+    "static/media/Gilroy-Semibold.woff2": "/WebPortfolio/static/media/Gilroy-Semibold.7726b19d33f1b7f4135a.woff2",
+    "static/media/Gilroy-Regular.woff2": "/WebPortfolio/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
+    "static/media/intro_cover.png": "/WebPortfolio/static/media/intro_cover.3860e783f5ecfcebb66c.png",
+    "static/media/insta.svg": "/WebPortfolio/static/media/insta.e98324d458c85b5ca901480d0b212e25.svg",
+    "static/media/vk.svg": "/WebPortfolio/static/media/vk.7cb62f9a7ad59340d634ca5e81e68f98.svg",
+    "static/media/right-bot-arrow.svg": "/WebPortfolio/static/media/right-bot-arrow.28abbe99fa64838991d46b154e50cbd7.svg",
+    "static/media/rightbtn.svg": "/WebPortfolio/static/media/rightbtn.d8e48939045f6263c490607bd13de0e4.svg",
+    "static/media/right-top-arrow.svg": "/WebPortfolio/static/media/right-top-arrow.7d657c80af087b96f97ceaea9ec5b8d1.svg",
+    "static/media/leftbtn.svg": "/WebPortfolio/static/media/leftbtn.e072883a2fe0b7f1bc84dfdf57928227.svg",
+    "static/media/tele.svg": "/WebPortfolio/static/media/tele.67f4d4f66e75b04c24394a7226e5a7c8.svg",
+    "index.html": "/WebPortfolio/index.html",
+    "static/media/github-bg.svg": "/WebPortfolio/static/media/github-bg.c935f8b085ca743ad414.svg",
+    "static/media/github-bg1280.svg": "/WebPortfolio/static/media/github-bg1280.18f1c77542f092829f55.svg",
+    "main.ac4a6407.css.map": "/WebPortfolio/static/css/main.ac4a6407.css.map",
+    "main.2aeaa02d.js.map": "/WebPortfolio/static/js/main.2aeaa02d.js.map",
+    "66.8dcda818.chunk.css.map": "/WebPortfolio/static/css/66.8dcda818.chunk.css.map",
+    "66.7f0be66e.chunk.js.map": "/WebPortfolio/static/js/66.7f0be66e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac4a6407.css",
+    "static/js/main.2aeaa02d.js"
+  ]
+}
